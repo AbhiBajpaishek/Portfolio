@@ -40,7 +40,7 @@ nav{
 /* header done */
 
 main{
-    margin: 8rem 4rem 0 4rem ;
+    margin: 6rem 4rem 0 4rem ;
     padding: auto;
 }
 
@@ -75,7 +75,7 @@ main{
 }
 
 .main-info{
-    margin-top: 10.5rem;
+    margin-top: 7.5rem;
 }
 
 .main-info div{
@@ -90,6 +90,7 @@ main{
 
 .info-career__heading{
     font-size: 3rem;
+    margin-bottom: 1.8rem;
 }
 
 .info-career__para{
@@ -107,6 +108,9 @@ main{
 }
 
 .label-tabs{
+    display: inline-block;
     padding: 0.6rem;
     border: 1px solid lightgrey;
+    border-radius: 7px;
+    margin: 0.3rem 0.1rem;
 }
