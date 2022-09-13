@@ -1,116 +1,144 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-html{
-    background: rgb(185,225,236);
-    background: linear-gradient(90deg, rgba(185,225,236,1) 14%, rgba(247,76,134,1) 100%);
+html {
+  background: rgb(185, 225, 236);
+  background: linear-gradient(
+    90deg,
+    rgba(185, 225, 236, 1) 14%,
+    rgba(247, 76, 134, 1) 100%
+  );
 }
 
-body{
-    margin: 4rem 7rem;
-    border-radius: 12px;
-    background-color: white;
+body {
+  margin: 4rem 7rem;
+  border-radius: 12px;
+  background-color: white;
 }
 
-
-nav{
-    padding: 2rem 3rem;
-    font-weight: 700;
+nav {
+  padding: 2rem 3rem;
+  font-weight: 700;
 }
 
-.nav-logo{
-    display: inline;
+.nav-logo {
+  display: inline;
 }
 
-.nav-menu{
-    display: inline;
-    float: right;
-    list-style: none;
+.nav-menu {
+  display: inline;
+  float: right;
+  list-style: none;
 }
 
-.nav-menu li{
-    display: inline;
-    margin: 0 0.5rem ;
+.nav-menu li {
+  display: inline;
+  margin: 0 0.5rem;
 }
 
 /* header done */
 
-main{
-    margin: 6rem 4rem 0 4rem ;
-    padding: auto;
+main {
+  margin: 6rem 4rem 0 4rem;
+  padding: auto;
 }
 
 .main-banner {
-    text-align: center;
+  text-align: center;
 }
 
-.main-banner div{ 
-    display: inline-block;
-    vertical-align: middle;
-    font-family: 'Poppins',sans-serif;
-    margin: 0 2rem;
+.main-banner div {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 2rem;
 }
 
-.banner-logo{
-    height: 22rem;
+.banner-logo {
+  height: 22rem;
 }
 
-.banner-text{
-    width: 25rem;
-    text-align: left;
+.banner-text {
+  width: 25rem;
+  text-align: left;
 }
 
-.banner-text h2{
-    font-size: 5rem;
+.banner-text h2 {
+  font-size: 5rem;
 }
 
-.banner-text p{
-    font-size: 1.2rem;
-    line-height: 28px;
-    letter-spacing: 1px;
+.banner-text p {
+  font-size: 1.2rem;
+  line-height: 28px;
+  letter-spacing: 1px;
 }
 
-.main-info{
-    margin-top: 7.5rem;
+.main-info {
+  margin-top: 7.5rem;
 }
 
-.main-info div{
-    display: inline-block;
-    margin: 0 2rem;
+.main-info div {
+  display: inline-block;
+  margin: 0 2rem;
 }
 
-
-.info-career{
-    width: 36rem;
+.info-career {
+  width: 36rem;
 }
 
-.info-career__heading{
-    font-size: 3rem;
-    margin-bottom: 1.8rem;
+.info-career__heading {
+  font-size: 3rem;
+  margin-bottom: 1.8rem;
 }
 
-.info-career__para{
-    font-size: 1.2rem;
-    line-height: 2.1rem;
-    letter-spacing: 1px;
-    color: grey;
+.info-career__para {
+  font-size: 1.2rem;
+  line-height: 2.1rem;
+  letter-spacing: 1px;
+  color: grey;
 }
 
-.labels{
-    width: 27rem;
-    vertical-align: top;
-    padding-top: 5rem;
-    padding-left: 3rem;
+.labels {
+  width: 27rem;
+  vertical-align: top;
+  padding-top: 5rem;
+  padding-left: 3rem;
 }
 
-.label-tabs{
-    display: inline-block;
-    padding: 0.6rem;
-    border: 1px solid lightgrey;
-    border-radius: 7px;
-    margin: 0.3rem 0.1rem;
+.label-tabs {
+  display: inline-block;
+  padding: 0.6rem;
+  border: 1px solid lightgrey;
+  border-radius: 7px;
+  margin: 0.3rem 0.1rem;
+}
+
+.main-contact {
+  border: 1px solid black;
+  padding: 1rem 15.5rem;
+  border-radius: 11px;
+  margin: 5rem 0;
+}
+
+.main-contact > div {
+  display: inline-block;
+  margin: 0 2rem;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px 3rem;
+  font-size: 3rem;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
 }
